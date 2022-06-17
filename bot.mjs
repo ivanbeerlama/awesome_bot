@@ -38,13 +38,13 @@ var BOT_TOKEN = ""; // <--------------------------------------- INSERT YOUR BOT 
 var max_results = 30; // Limit rarity results to this amount
 var max_floor_results = 5; // Limit floor results to this amount
 
-var print_link = true; // Print links to NFT next to floor results
+var print_link = false; // Print links to NFT next to floor results
 var link_prefix = "https://soonaverse.com/nft/" // For transparency don't use a link shortener!
 
 var caching = true; // Limit getNftsByCollections to once every x minutes 
 var cache_frequency = 30; // minutes
 
-var floor_updates = true; // Monitor floor and notify in specific channel
+var floor_updates = false; // Monitor floor and notify in specific channel
 var floor_updates_channel = "floor-updates";
 
 // ******** END OF SETTINGS ********
