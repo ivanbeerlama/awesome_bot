@@ -17,7 +17,7 @@ The following command are supported:
 ## Setup
 
 1. Create a discord bot using: https://discordpy.readthedocs.io/en/stable/discord.html
-2. Your bot only requires permissions to 'send messages'
+2. Your bot requires the permissions to 'send messages' and 'read message history'
 3. Insert your bot token into ___bot.mjs___
 4. Invite the bot to your discord server
 
